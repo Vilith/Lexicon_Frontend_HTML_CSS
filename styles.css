@@ -27,8 +27,16 @@ body {
   section {
     padding: 20px;
     background-color: #81240d;
+    color: white;
     margin: 10px;
     border-radius: 5px;
+  }
+
+  section strong {
+    color: black;
+    background-color: orangered;
+    padding: 2px 4px;
+    border-radius: 8px;
   }
   
   .video {
@@ -45,10 +53,22 @@ body {
   } 
 
   h1, h2 {
+    background-color: orangered;    
+    color: rgb(247, 224, 23);
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 8px;    
+  }
+  
+  .Karate {   
     text-align: center;
-    color: rgb(247, 224, 23)
   }
 
+  .Trailer {
+    text-align: center;
+  }
+  
+ 
   nav ul {
     display: flex;
     gap: 40px;
